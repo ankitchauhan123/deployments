@@ -1,0 +1,9 @@
+1. kubectl get pods
+2. kubectl get services
+3. minikube service <service name>
+4. kubectl logs <pod name>
+5. kubectl apply -f  <yml file>
+6. kubectl delete -f <yml file>
+7. kubectl exec --stdin --tty <pod name>  -- /bin/bash  
+8. kubectl describe pods <pod name>
+   
