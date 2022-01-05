@@ -6,4 +6,5 @@
 6. kubectl delete -f <yml file>
 7. kubectl exec --stdin --tty <pod name>  -- /bin/bash  
 8. kubectl describe pods <pod name>
-   
+9. kubectl apply -f  <yml file> --namespace=<name space>
+10. kubectl get all -n <name space>   
